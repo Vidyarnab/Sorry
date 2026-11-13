@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>I'm Sorry ❤️</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;padding:24px;display:grid;place-items:center;font-family:Arial,sans-serif;color:#fff;background:linear-gradient(145deg,#ffb5ca,#d94f82 55%,#63294f)}
+.card{width:min(100%,470px);padding:30px 24px;text-align:center;border:1px solid #ffffff66;border-radius:26px;background:#ffffff22;box-shadow:0 18px 50px #48152d55}
+.heart{font-size:60px;animation:pulse 1.3s infinite}h1{font-size:40px;margin:10px 0}p{line-height:1.7;font-size:16px}
+button{border:0;border-radius:30px;padding:14px 22px;font-size:16px;font-weight:bold;color:#a52e60;background:white;cursor:pointer}
+#letter{display:none;margin-top:22px;padding:18px;text-align:left;border-radius:18px;background:#ffffff25}
+#letter h2{text-align:center}.sign{text-align:center;font-weight:bold}
+@keyframes pulse{50%{transform:scale(1.12)}}
+</style>
+</head>
+<body>
+<main class="card">
+<div class="heart">❤️</div>
+<h1>I'm Sorry</h1>
+<p>I made this little page for you. There's something I want to say from my heart.</p>
+<button id="open">Open my letter 💌</button>
+<section id="letter">
+<h2>For You ❤️</h2>
+<p>I'm sorry for everything. I know I've hurt you, and I truly regret the times my words or actions made you feel sad. You didn't deserve that, and I don't want to make excuses for my mistakes.</p>
+<p>I can't change the past, but I can take responsibility, learn from it, and show you through my actions that I'm trying to do better. I don't want to keep repeating the same mistakes.</p>
+<p>You mean a lot to me, and I honestly don't want to lose you. I care about you and what we share. I hope I can earn your trust again, one step at a time.</p>
+<p>I understand if you need time. I won't pressure you to forgive me straight away. I just wanted you to know that my apology is genuine and that you are very special to me.</p>
+<p class="sign">I'm truly sorry. I love you. ❤️</p>
+</section>
+<p style="font-size:12px;opacity:.8;margin-top:22px">Made with sincerity ♡</p>
+</main>
+<script>
+document.getElementById('open').addEventListener('click',function(){
+ document.getElementById('letter').style.display='block';this.style.display='none';
+});
+</script>
+</body>
+</html>
